@@ -2,8 +2,7 @@
     "version": 2,
     "functions": {
         "api/index.php": {
-            "runtime": "vercel-php@0.7.3",
-            "includeFiles": "storage/**"
+            "runtime": "vercel-php@0.7.3"
         }
     },
     "routes": [
@@ -33,7 +32,7 @@
         }
     ],
     "env": {
-        "PHP_VERSION": "8.3",
+        "AWS_LAMBDA_PHP_VERSION": "8.3",
         "APP_ENV": "production",
         "APP_DEBUG": "false",
         "APP_CONFIG_CACHE": "/tmp/config.php",
